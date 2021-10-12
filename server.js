@@ -26,16 +26,17 @@ const normalizePort = val => {
 const port = normalizePort(process.env.PORT || '3000');
 app.set('port', port);
 
-// la fonction errorHandler  recherche les différentes erreurs et les gère de manière appropriée. 
-// Elle est ensuite enregistrée dans le serveur ;
+// la fonction errorHandler est déclenchée quand une erreur se produit.
 const errorHandler = error => {
   if (error.syscall !== 'listen') {
     throw error;
   }
   const address = server.address();
+  // recupération du type d'erreur
   const bind = typeof address === 'string' ? 'pipe ' + address : 'port: ' + port;
   switch (error.code) {
     case 'EACCES':
+      // construction du message a afficher
       console.error(bind + ' requires elevated privileges.');
       process.exit(1);
       break;

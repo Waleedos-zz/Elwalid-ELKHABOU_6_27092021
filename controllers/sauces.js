@@ -27,10 +27,10 @@ exports.createSauce = (req, res, next) => {
 };
 
 //Récupère un produit par l'id
-// nous utilisons la méthode get() pour répondre uniquement aux demandes GET à cet endpoint ; nous utilisons 
+// nous utilisons la méthode get() pour récupérer une (sauce); Nous utilisons 
 // deux-points : en face du segment dynamique de la route pour la rendre accessible en tant que paramètre ; 
 // nous utilisons ensuite la méthode findOne() dans notre modèle "Sauce" pour trouver la "Sauce" unique ayant le 
-// même _id que le paramètre de la requête ; cettr "Sauce" est ensuite retournée dans une Promise et envoyée au 
+// même _id que le paramètre de la requête ; cette "Sauce" est ensuite retournée dans une Promise et envoyée au 
 // front-end ; si aucune "Sauce" n'est trouvée ou si une erreur se produit, nous envoyons une erreur 404 au 
 // front-end, avec l'erreur générée.
 exports.getOneSauce = (req, res, next) => {

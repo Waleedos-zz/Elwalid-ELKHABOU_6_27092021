@@ -17,13 +17,9 @@ module.exports = (req, res, next) => {
     // l'espace après header [1] <= la position du token dans le header (positionner en 2 mais commence par 0 donc 1)
     const token = req.headers.authorization.split(' ')[1];
 
-    //-----------------------------------------------------------------------
     // nous utilisons ensuite la fonction verify pour décoder notre token. Si celui-ci n'est pas valide, 
     // une erreur sera générée ;
-    // const decodedToken = jwt.verify(token, 'RANDOM_TOKEN_SECRET');
-    //On créer une constante afin de décodé le token et son contenu
-    const decodedToken = jwt.verify(token,  `${config.JWT_TOKEN_SECRET}`);
-    //-----------------------------------------------------------------------
+    const decodedToken = jwt.verify(token, 'RANDOM_TOKEN_SECRET');
 
     // nous extrayons l'ID utilisateur de notre token ;
     const userId = decodedToken.userId;
