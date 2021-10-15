@@ -1,12 +1,12 @@
 ## Table des Matières
 1.  [Scénario](#Scénario)
 2.  [Objectifs](#Objectifs)
-3.  [Technologies](#Technologies utilisées)
-4.  [Structure du site](#Structure)
-5.  [Comment utiliser l'API](#Comment)
-6.  [Le Back-end](#Backend)
-7.  [Le Front-end](#Frontend)
-8.  [Mesures de sécurité](#Mesures )
+3.  [Technologies utilisées](#Technologies-utilisées)
+4.  [Structure du site](#Structure-du-site)
+5.  [Comment utiliser l'API](#Comment-utiliser-l'API)
+6.  [Le Back-end](#Le-Back-end)
+7.  [Le Front-end](#Le-Front-end)
+8.  [Mesures de sécurité mises en place](#Mesures-de-sécurité-mises-en-place)
 9.  [Compétences évaluées](#Compétences)
 10. [Évaluation](#Évaluation)
 11. [Contact](#Contact)
@@ -19,7 +19,7 @@ Construction d’un site web e-commerce JS :
 
 ### Objectifs
 
-![Image text](https://github.com/Waleedos/Elwalid-ELKHABOU_5-2nd_14082021/blob/main/back-end/autres/logo.png)
+![Image text](https://raw.githubusercontent.com/Waleedos/P6-Last/main/autres/piquante.png)
 >Créer un premier MVP pour démontrer le fonctionnement de ses applications(Selection de produit, Panier fonctionel, Commander). 
 
 ## Technologies utilisées
@@ -29,10 +29,10 @@ executer `npm install`
 puis `node server`  
 Le server devrait se lancer sur `localhost with default port 3000`. 
 
-## Éléments fournis
+## Structure du site
 Backend (_Fournit lors de l'installation_)
 
-##  Cahier des charges
+## Comment utiliser l'API
 _Pour le MVP, la personnalisation du produit ne sera pas fonctionnelle :_  
 * La page contenant un seul article aura un menu déroulant permettant à l'utilisateur de choisir une option de personnalisation,
 *mais celle-ci ne sera ni envoyée au serveur*
@@ -42,16 +42,25 @@ _Pour le MVP, la personnalisation du produit ne sera pas fonctionnelle :_
 * Des promesses devront être utilisées pour éviter les rappels.
 * Les inputs des utilisateurs doivent être validés avant l’envoi à l’API. (*firstName, lastName, address, city et email*)
 
-## Notes
+## Le Back-end
+L'IDE que j'ai utilisé est *Visual Studio Code*.  
+
+## Le Front-end
+L'IDE que j'ai utilisé est *Visual Studio Code*.  
+
+## Mesures de sécurité mises en place
 L'IDE que j'ai utilisé est *Visual Studio Code*.  
 
 ## Compétences évaluées
+L'IDE que j'ai utilisé est *Visual Studio Code*.  
+
+## Évaluation
 - Créer un plan de test pour une application.
 - Interagir avec un web service avec JavaScript.
 - Valider des données issues de sources externes.
 - Gérer des événements JavaScript.
 
-## Évaluation
+## Évaluation-1
 :heavy_check_mark: Évaluation et Soutenance planifiée pour le Samedi 25 septembre 2021 à 11H00.
 
 ## Contact
