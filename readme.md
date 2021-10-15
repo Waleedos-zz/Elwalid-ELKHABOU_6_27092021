@@ -32,19 +32,19 @@ Piiquante, veut développer une application web de critique des sauces piquantes
 
 ## Outils & Technologies utilisés
 >
-    • JavaScript	: Version 8.4.371.23
-    • Node.js 		: Version 14.18.0
-    • Node-sass 	: Version 4.14.  
-    • Angular CLI 	: Version 12.2.8
-    • Express		: Version 4.17.1
-    • MongoDb Atlas	: Version 3.6.8
-    • Mongoose		: Version 6.0.8
-    • Body-parser	: Version 1.19.0
-    • Bcrypt		: Version 5.0.1
-    • Dotenv		: Version 10.0.0
-    • Jsonwebtoken	: Version 8.5.1
+    • JavaScript	    : Version 8.4.371.23
+    • Node.js 		    : Version 14.18.0
+    • Node-sass 	    : Version 4.14.  
+    • Angular CLI 	    : Version 12.2.8
+    • Express		    : Version 4.17.1
+    • MongoDb Atlas	    : Version 3.6.8
+    • Mongoose		    : Version 6.0.8
+    • Body-parser	    : Version 1.19.0
+    • Bcrypt		    : Version 5.0.1
+    • Dotenv		    : Version 10.0.0
+    • Jsonwebtoken	    : Version 8.5.1
     • Mg-unique-validator : Version 2.0.4
-    • Multer		: Version 1.4.3
+    • Multer		    : Version 1.4.3
 
 ## Structure du site
 >
