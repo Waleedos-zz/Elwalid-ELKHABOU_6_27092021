@@ -1,27 +1,28 @@
 ## Table des Matières
-1. [Scénario](#Scénario)
-2. [Objectifs](#Objectifs)
-3. [Technologies utilisées](#Technologies utilisées)
-4. [Structure du site](#Structure du site)
-5. [Comment utiliser l'API](#Comment utiliser l'API)
-		[Le Back-end](#Le Back-end)
-		[Le Front-end](#Le Front-end)
-6. [Mesures de sécurité mises en place](#Mesures de sécurité mises en place)
-7. [Compétences évaluées](#Compétences évaluées)
-8. [Évaluation](#Évaluation)
-8. [Contact](#Contact)
+1.  [Scénario](#Scénario)
+2.  [Objectifs](#Objectifs)
+3.  [Technologies](#Technologies utilisées)
+4.  [Structure du site](#Structure)
+5.  [Comment utiliser l'API](#Comment)
+6.  [Le Back-end](#Backend)
+7.  [Le Front-end](#Frontend)
+8.  [Mesures de sécurité](#Mesures )
+9.  [Compétences évaluées](#Compétences)
+10. [Évaluation](#Évaluation)
+11. [Contact](#Contact)
 
-### Information Generale
+### Scénario
 Construction d’un site web e-commerce JS :
 * Création plan de test application. 
 * Interagir avec un service web avec JS.
 * Valider des données issues de ressource externe et gérer des évènements JS.
 
-### Orinoco
+### Objectifs
 
 ![Image text](https://github.com/Waleedos/Elwalid-ELKHABOU_5-2nd_14082021/blob/main/back-end/autres/logo.png)
->Créer un premier MVP pour démontrer le fonctionnement de ses applications(Selection de produit, Panier fonctionel, Commander).  
-## Installation
+>Créer un premier MVP pour démontrer le fonctionnement de ses applications(Selection de produit, Panier fonctionel, Commander). 
+
+## Technologies utilisées
 Cloner  https://github.com/OpenClassrooms-Student-Center/JWDP5   
 se deplacer depuis le terminal dans ce dossier  
 executer `npm install`  
