@@ -1,6 +1,10 @@
+// Nous installons avant tout multer : npm install --save multer
+
 // nous créons une constante storage , à passer à multer comme configuration, qui contient la logique nécessaire 
 // pour indiquer à multer où enregistrer les fichiers entrants :
 const multer = require('multer');
+
+const fs = require('fs');
 
 //Configuration des extensions des fichiers
 const MIME_TYPES = {
@@ -10,19 +14,19 @@ const MIME_TYPES = {
 };
 
 
-//Création d'un fichier externe et dans quel dossier l'enregistrer
-//Constante storage avec comme argument multer et la fonction diskStorage
-// la fonction destination indique à multer d'enregistrer les fichiers dans le dossier images ;
-const storage = multer.diskStorage({
-  //destination indique à multer d'enregistrer le fichier dans le dossier images
-  destination: (req, file, callback) => {
-    //if (!images){}
-    //if pour voir si le repertoir images n'existe pas, il faut le créer, 
-    //sans utiliser else ou ....
-    //appeler le callback : null pour indiquer qu'il n'y a pas d'erreur, dans le dossier images
-    callback(null, 'images');
-  },
+//Création du dossier "images" s'il n'existe pas
+fs.mkdir("./images",function(image){
+    if(!image || (image && image.code === 'EEXIST')){
+        console.log("Dossier déjà existant")
+    } else {
+        console.log("Votre dossier a bien été crée")
+    }
+})
 
+const storage = multer.diskStorage({
+    destination: (req, file, callback) => {
+        callback(null, 'images');
+    },
   // Nous utilisons la fonction filename pour affecter le nom d'origine, de remplacer les espaces par des underscores 
   // et pour ajouter un timestamp Date.now() comme nom de fichier:
   //la fonction filename indique à multer de modifier le nom du fichier d'origine 
