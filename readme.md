@@ -8,7 +8,7 @@
 7.  [Le Front-end](#Le-Front-end)
 8.  [Mesures de sécurité mises en place](#Mesures-de-sécurité-mises-en-place)
 9.  [Compétences évaluées](#Compétences)
-10. [Évaluation](#Évaluation)
+10. [Soutenance & Évaluation](#Soutenance-&-Évaluation)
 11. [Contact](#Contact)
 
 ### Scénario
@@ -56,14 +56,14 @@ Piiquante, veut développer une application web de critique des sauces piquantes
 ## Comment utiliser l'API
 >Clonez ce dépôt. 
 
->## Le Back-end
+## Le Back-end
 >
     • Dans le dossier « backend », et afin de vous connecter à la base de données en tant qu’ « Admin » ou « Éditeur », copiez le fichier ‘.env’ correspondant (envoyé séparément) dans le dossier « backend ». 
     • Installez nodemon. Exécutez npm install, Toujours dans le répertoire « backend » 
     • Exécutez nodemon server. 
     • Le serveur doit fonctionner sur http://localhost:3000.   
 
->## Le Front-end
+## Le Front-end
 >
     • Ce dossier est déjà construit, codé et fourni, il ne faut pas le toucher.
     • Dans le dossier « frontend », exécutez npm start. Cela devrait à la fois exécuter le serveur local et lancer votre navigateur.
@@ -90,8 +90,10 @@ Piiquante, veut développer une application web de critique des sauces piquantes
     • Middleware d'authentification.
     • Nodemon. 
 
-## Évaluation
+## Soutenance & Évaluation
 Évaluation et Soutenance planifiée pour le Mardi 19 Octobre 2021 à 14H00.
+La soutenance sera assurée par [Monsieur Ibrahima CISS](https://iciss.dev/), Ingénieur logiciel développant pour iOS, macOS et le Web.
+
 
 ## Contact
 * [Email](mailto:alkhabou@gmail.com)
