@@ -91,8 +91,9 @@ Piiquante, veut développer une application web de critique des sauces piquantes
     • Nodemon. 
 
 ## Soutenance & Évaluation
-Évaluation et Soutenance planifiée pour le Mardi 19 Octobre 2021 à 14H00.
-La soutenance sera assurée par [Monsieur Ibrahima CISS](https://iciss.dev/), Ingénieur logiciel développant pour iOS, macOS et le Web.
+>Évaluation et Soutenance planifiées pour le Mardi 19 Octobre 2021 à 14H00.
+
+>Cette Évaluation sera assurée par [Monsieur Ibrahima CISS](https://iciss.dev/), Ingénieur logiciel développant pour iOS, macOS et le Web.
 
 
 ## Contact
