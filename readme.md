@@ -56,15 +56,15 @@ Piiquante, veut développer une application web de critique des sauces piquantes
 ## Comment utiliser l'API
 >Clonez ce dépôt. 
 
->>### Le Back-end
->>>
+>## Le Back-end
+>
     • Dans le dossier « backend », et afin de vous connecter à la base de données en tant qu’ « Admin » ou « Éditeur », copiez le fichier ‘.env’ correspondant (envoyé séparément) dans le dossier « backend ». 
     • Installez nodemon. Exécutez npm install, Toujours dans le répertoire « backend » 
     • Exécutez nodemon server. 
     • Le serveur doit fonctionner sur http://localhost:3000.   
 
->>### Le Front-end
->>>
+>## Le Front-end
+>
     • Ce dossier est déjà construit, codé et fourni, il ne faut pas le toucher.
     • Dans le dossier « frontend », exécutez npm start. Cela devrait à la fois exécuter le serveur local et lancer votre navigateur.
     • Si votre navigateur ne démarre pas ou affiche une erreur 404, essayez l’adresse : http://localhost:8080  ou bien  http://localhost:8081  ou bien  http://localhost:5500.
