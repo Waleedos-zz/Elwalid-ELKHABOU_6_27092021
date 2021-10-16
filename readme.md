@@ -1,3 +1,8 @@
+## Soutenance & Évaluation
+>Évaluation et Soutenance planifiées pour le Mardi 19 Octobre 2021 à 14H00.
+
+>Cette Évaluation sera assurée par [Monsieur Ibrahima CISS](https://iciss.dev/), Ingénieur logiciel développant pour iOS, macOS et le Web.
+
 ## Table des Matières
 1.  [Scénario](#Scénario)
 2.  [Objectifs](#Objectifs)
@@ -89,12 +94,6 @@ Piiquante, veut développer une application web de critique des sauces piquantes
     • Tokens d'authentification.
     • Middleware d'authentification.
     • Nodemon. 
-
-## Soutenance & Évaluation
->Évaluation et Soutenance planifiées pour le Mardi 19 Octobre 2021 à 14H00.
-
->Cette Évaluation sera assurée par [Monsieur Ibrahima CISS](https://iciss.dev/), Ingénieur logiciel développant pour iOS, macOS et le Web.
-
 
 ## Contact
 * [Email](mailto:alkhabou@gmail.com)
