@@ -13,8 +13,8 @@
 7.  [Le Front-end](#Le-Front-end)
 8.  [Mesures de sécurité mises en place](#Mesures-de-sécurité-mises-en-place)
 9.  [Compétences évaluées](#Compétences)
-10. [Soutenance & Évaluation](#Soutenance-&-Évaluation)
-11. [Contact](#Contact)
+10. [Contact](#Contact)
+11. [RapportGénéral du P#6](https://github.com/Waleedos/rapport-p6/blob/main/rapport-du-p6.pdf)
 
 ### Scénario
 >Vous êtes développeur backend freelance et vous travaillez depuis quelques années sur des projets web pour des startups ou des grandes entreprises. La semaine dernière, vous avez reçu un message sur votre plateforme de freelance vous demandant de l'aide

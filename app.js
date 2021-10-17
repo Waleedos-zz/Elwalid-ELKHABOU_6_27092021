@@ -37,7 +37,9 @@ mongoose.connect(`mongodb+srv://${config.DB_USERNAME}:${config.DB_PASSWORD}@clus
     console.log('Connexion à MongoDB échouée !')}
     );  
 
-// CORS (Cross-Origin Resource Sharing): Suite aux problemes CORS détéctés par le Browser qui refuse (securité par defaut) d'executer nos requete car le front et le back sont differents : port 3000 et port 4200, nous devons inserer ces headers qui permettent de :
+// CORS (Cross-Origin Resource Sharing): Suite aux problemes CORS détéctés par le Browser qui refuse 
+// (securité par defaut) d'executer nos requete car le front et le back sont differents : port 3000 et port 4200, 
+// nous devons inserer ces headers qui permettent de : 
 // 1- d'accéder à notre API depuis n'importe quelle origine ( '*' ) ;
 // 2- d'ajouter les headers mentionnés aux requêtes envoyées vers notre API (Origin , X-Requested-With , etc.) ;
 // 3- d'envoyer des requêtes avec les méthodes mentionnées ( GET ,POST , etc.).
